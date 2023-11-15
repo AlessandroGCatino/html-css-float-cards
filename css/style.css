@@ -59,6 +59,9 @@ ul li:last-child{
     color: #56b8c5;
 }
 
+.container{
+    padding-left: 5%;
+}
 
 .clearbox::after{
     content: "";
