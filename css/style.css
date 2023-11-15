@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 html{
@@ -21,5 +22,38 @@ header h1{
 }
 header{
     text-align: center;
-    
+}
+
+.card{
+    float: left;
+    margin: 20px 10px 0;
+    color:white;
+    background-color: #0f0e17;
+    width: calc(88%/3);
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.2);
+    border: 3px solid blue;
+}
+
+img{
+    width: 30%;
+    margin: 0;
+    float: left;
+    padding-right: 10px;
+}
+
+li{
+    margin-top: 3%;
+}
+
+ul li:first-child{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+.clearbox::after{
+    content: "";
+    display: table;
+    clear: both;
 }
