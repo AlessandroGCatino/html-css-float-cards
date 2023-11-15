@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header h1{
+    color: #e53170;
+    text-transform: capitalize;
+    margin-block: 35px;
+
+}
+header{
+    text-align: center;
+    
+}
