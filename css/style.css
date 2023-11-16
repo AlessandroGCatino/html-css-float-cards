@@ -26,16 +26,21 @@ header{
 }
 
 .card{
+    
+    margin-top: 20px;
+    /* correzione durante la lezione */
+    margin-inline: 1%;
+    width: calc(100%/3 - 2%);
     float: left;
-    margin: 20px 10px 0;
+    /* correzione durante la lezione */
     color:white;
     background-color: #0f0e17;
-    width: calc(88%/3);
     box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.2);
 }
 
+
 img{
-    width: 30%;
+    max-width: 35%;
     margin: 0;
     float: left;
     padding-right: 10px;
@@ -43,6 +48,7 @@ img{
 
 li{
     margin-top: 3%;
+    word-break: break-all;
 }
 
 ul li:first-child{
@@ -57,10 +63,6 @@ ul li:nth-child(2){
 
 ul li:last-child{
     color: #56b8c5;
-}
-
-.container{
-    padding-left: 5%;
 }
 
 .clearbox::after{
